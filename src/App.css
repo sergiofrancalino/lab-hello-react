@@ -13,6 +13,22 @@
   }
 }
 
+/* Início dos Estilos do LAB */
+
+.hero {
+
+  background-color: black;
+
+}
+
+.hero > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
