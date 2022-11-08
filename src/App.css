@@ -1,54 +1,68 @@
 .App {
   text-align: center;
+  padding: 1%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/* Início dos Estilos do LAB */
+/* Folha de stilos do componente "Hero" */
 
 .hero {
 
-  background-color: black;
-
+  background-color: rgb(7, 6, 20);
+  background-size: auto;
 }
-
 .hero > nav {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+
 }
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero > div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-top: 15%;
+
+}
+.hero > div > h1 {
+  font-size: 500%;
+  font-weight: bold;
+  color: azure;
+  margin-right: 60%;
+  text-align: left;
+}
+.hero > div > h2 {
+  color:rgb(216, 214, 214);
+  margin-right: 60%;
+  text-align:left;
+  margin-bottom: 10%;
+  font-weight: lighter;
+}
+.hero > div > button {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 8%;
+  padding: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+/* Folha de stilos do componente "Icons" */
+.icons > nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+  margin-top: 15%;
+}
+.icons > nav > div > h1 {
+  padding-left: 20%;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons > nav > div > b {
+  display: flex;
+  color: grey;
+  text-align:justify;
+  padding-left: 20%;
+  padding-right: 20%;
 }
